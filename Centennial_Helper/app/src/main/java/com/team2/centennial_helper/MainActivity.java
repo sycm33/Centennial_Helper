@@ -12,6 +12,7 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
 
     private Button button;
+    private Button button2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,14 +21,32 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openLoginActivity();
 
+                openLoginActivity();
             }
         });
+
+        button2 = (Button) findViewById(R.id.btn_register);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openRegisterActivity();
+            }
+        });
+
+
+
+
+
+
     }
+
     public void openLoginActivity(){
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }
-
+    public void openRegisterActivity(){
+        Intent intent2 = new Intent(this, RegisterActivity.class);
+        startActivity(intent2);
+    }
 }
