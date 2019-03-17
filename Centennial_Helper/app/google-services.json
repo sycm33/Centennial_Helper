@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "152650404932",
+    "firebase_url": "https://centennialhelper.firebaseio.com",
+    "project_id": "centennialhelper",
+    "storage_bucket": "centennialhelper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152650404932:android:36441c3339d09b4f",
+        "android_client_info": {
+          "package_name": "com.team2.centennial_helper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152650404932-88d6qf1e19dihqggbgu3hje418khii03.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.team2.centennial_helper",
+            "certificate_hash": "196d6fcaeeb49bb8d7f287153f50a8c1845b470a"
+          }
+        },
+        {
+          "client_id": "152650404932-q1iah2jnrv3epdpe27t54md45eq7i6hs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVXfLFg0vrrv9ChMeE4V0IsEA_WZq4JGY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152650404932-q1iah2jnrv3epdpe27t54md45eq7i6hs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
