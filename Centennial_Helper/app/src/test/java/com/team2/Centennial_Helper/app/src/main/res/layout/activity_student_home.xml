@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTxt"
+    tools:context=".StudentHomeActivity">
+
+    <Button
+        android:id="@+id/btn_TicketHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:text="Ticket History"
+        android:textColor="@color/colorTxt" />
+
+    <TextView
+        android:id="@+id/label_tit1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Welcome!"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <LinearLayout
+        android:id="@+id/layout_titleStudent"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="282dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/label_studentName"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/label_student"
+                    android:layout_width="93dp"
+                    android:layout_height="wrap_content"
+                    android:text="  student."
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="10sp" />
+            </TableRow>
+        </TableRow>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_createRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="Create Request"
+        android:textColor="@color/colorTxt" />
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTxt"
+    tools:context=".CreateRequestActivity">
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:text="Submit"
+        android:textColor="@color/colorTxt" />
+
+    <TextView
+        android:id="@+id/label_category"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="Category"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/label_description"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:text="Description"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/txtview_createRequest"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:text="Create Request"
+        android:textColor="@color/colorTxt"
+
+        app:fontFamily="sans-serif-black" />
+
+    <TextView
+        android:id="@+id/label_StudentNum"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="Student Number"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/txt_studentNum"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/label_programName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:text="Program Name"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/txt_programName"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/label_courseName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="CourseName"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/txt_courseName"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txt_description"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="205dp"
+        android:background="@color/colorEditText"
+        android:fadeScrollbars="true"
+        android:gravity="top|left"
+        android:lines="10"
+        android:maxLines="15"
+        android:minLines="5"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="10sp" />
+
+    <Spinner
+        android:id="@+id/spinner_category"
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="266dp"
+        />
+
+</RelativeLayout>

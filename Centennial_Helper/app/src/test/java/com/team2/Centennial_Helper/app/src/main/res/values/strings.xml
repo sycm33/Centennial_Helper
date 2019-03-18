@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Centennial Helper</string>
+    <string-array name="category">
+        <item>Finanical</item>
+        <item>Transfer</item>
+        <item>Register</item>
+        <item>Others</item>
+    </string-array>
+
+
+
+</resources>

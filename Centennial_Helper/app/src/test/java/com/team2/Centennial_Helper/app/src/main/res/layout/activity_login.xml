@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTxt"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/label_password"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:text="Password"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/label_email"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="Email"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/txt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <EditText
+        android:id="@+id/txt_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <Button
+        android:id="@+id/btn_login2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="Sign In"
+        android:textColor="@color/colorTxt"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <TextView
+        android:id="@+id/txtview_signin"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:text="Sign into your account"
+        android:textColor="@color/colorTxt"
+
+        app:fontFamily="sans-serif-black" />
+</RelativeLayout>
