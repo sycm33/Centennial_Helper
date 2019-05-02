@@ -15,17 +15,37 @@
         android:scrollbarStyle="insideInset"
         android:scrollbars="vertical"
         android:shadowColor="@color/colorBackground"
-        android:text="Welcome!"
+        android:text=""
         android:textColor="@color/colorPrimaryDark"
         android:textSize="15sp"
         android:textStyle="bold"
         app:fontFamily="sans-serif" />
 
-    <ListView
-        android:id="@+id/listView1"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="60dp" />
-
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewTicket"
+            android:text="View Tickets"
+            android:textColor="@color/colorTxt"
+            />
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/label_tit_employee"
+            android:text="Logout"
+            android:textColor="@color/colorTxt" />
+    </LinearLayout>
 
 </RelativeLayout>

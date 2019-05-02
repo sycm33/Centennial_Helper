@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.team2.centennial_helper">
 
     <application
@@ -9,12 +10,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EmployeeHomeActivity"></activity>
-        <activity android:name=".CreateRequestActivity" />
-        <activity android:name=".StudentHomeActivity" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".employee.EmployeeHomeActivity" />
+        <activity android:name=".student.StudentHomeActivity" />
+        <activity android:name=".common.RegisterActivity" />
+        <activity android:name=".common.LoginActivity"/>
         <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".student.CreateTicketActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".student.DisplayTickets"/>
+        <activity android:name=".common.MiddlewareActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

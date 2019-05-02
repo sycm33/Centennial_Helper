@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".student.DisplayTickets">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelYourTicket"
+        android:text="Your Tickets"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchTicket"
+        android:layout_below="@+id/labelYourTicket"
+        android:hint="Search Ticket"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/displayTicketRv"
+        android:layout_below="@+id/searchTicket"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/noTicketsMsg"
+        android:visibility="gone"
+        android:text="No tickets to display"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>
